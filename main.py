@@ -32,8 +32,8 @@ def receiving_messages(e):
         print("Sender:" + e.recv(1024).decode())
         
         
-threading.thread(target = sending_messages, args = (clientt,)).start()
-threading.thread(target = receiving_messages, args = (clientt,)).start()
+threading.thread(target = sending_messages, args = (client,)).start()
+threading.thread(target = receiving_messages, args = (client,)).start()
         
 
     
