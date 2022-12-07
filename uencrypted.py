@@ -35,6 +35,3 @@ def receiving_messages(e):
 threading.Thread(target = sending_messages, args = (client,)).start()
 threading.Thread(target = receiving_messages, args = (client,)).start()
         
-
-    
-
