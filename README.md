@@ -9,7 +9,7 @@ The **Unencrypted Version** transmits plain content and any person can listen or
 
 - You will need to install the external package manager [pip install rsa](https://pypi.org/project/rsa/).
 - You will need to run two terminal screens on your machine; Host and Receiver.
-- You will need to install a network protocol analyzer tool. You can use [Wireshark] (https://www.wireshark.org/#download).
+- You will need to install a network protocol analyzer tool. You can use [Wireshark](https://www.wireshark.org/#download).
 
 
 ## License
